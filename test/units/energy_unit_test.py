@@ -11,7 +11,7 @@
 #
 ################################################################################
 
-from qudt.units.energy import EnergyUnit
+from qudt.units.energy import EnergyUnit, PowerUnit
 from qudt.quantity import Quantity
 
 import unittest
@@ -33,6 +33,18 @@ class EnergyUnitTest(unittest.TestCase):
         btu = kwh.convert_to(EnergyUnit.BTU)
         self.assertEqual(btu.unit, EnergyUnit.BTU)
         self.assertAlmostEqual(btu.value, 170607.08, 2)
+
+    def test_kbtu(self) -> None:
+        btus = Quantity(2500, EnergyUnit.BTU)
+
+        kbtus = btus.convert_to(EnergyUnit.KBTU)
+        self.assertAlmostEqual(kbtus.value, 2.5, 1)
+
+    def test_kbtu_per_hr(self) -> None:
+        kbtus = Quantity(2.5, PowerUnit.KBTU_PER_HR)
+
+        btus = kbtus.convert_to(PowerUnit.BTU_PER_HR)
+        self.assertAlmostEqual(btus.value, 2500, 1)
 
 
 class NormalNaturalGasTest(unittest.TestCase):

@@ -1179,6 +1179,22 @@ unit:BTU_IT
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "British Thermal Unit (International Definition)" ;
 .
+unit:KiloBTU_IT
+  a qudt:ImperialUnit ;
+  a qudt:Unit ;
+  dcterms:description "\\(\\textit{British Thermal Unit}\\) (kBTU or kBtu) is a traditional unit of energy equal to about \\(1.0550558526 \\textit{ kilojoule}\\). It is approximately the amount of energy needed to heat 1 pound (0.454 kg) of water from \\(39 \\,^{\\circ}{\\rm F}\\)  to \\(40 \\,^{\\circ}{\\rm F}\\) . The unit is most often used in the power, steam generation, heating and air conditioning industries. In scientific contexts the BTU has largely been replaced by the SI unit of energy, the \\(joule\\), though it may be used as a measure of agricultural energy production (BTU/kg). It is still used unofficially in metric English-speaking countries (such as Canada), and remains the standard unit of classification for air conditioning units manufactured and sold in many non-English-speaking metric countries."^^qudt:LatexString ;
+  qudt:conversionMultiplier "1055055.85262"^^xsd:double ;
+  qudt:conversionOffset "0.0"^^xsd:double ;
+  qudt:hasQuantityKind quantitykind:Energy ;
+  qudt:hasQuantityKind quantitykind:ThermalEnergy ;
+  qudt:informativeReference "http://en.wikipedia.org/wiki/British_thermal_unit"^^xsd:anyURI ;
+  qudt:informativeReference "http://physics.nist.gov/Pubs/SP811/appenB9.html"^^xsd:anyURI ;
+  qudt:informativeReference "http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=31890"^^xsd:anyURI ;
+  qudt:informativeReference "http://www.knowledgedoor.com/2/units_and_constants_handbook/british-thermal-unit_group.html"^^xsd:anyURI ;
+  qudt:symbol "kBtu_{it}" ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Kilo British Thermal Unit (International Definition)" ;
+.
 unit:BTU_IT-FT
   a qudt:DerivedUnit ;
   a qudt:ImperialUnit ;
@@ -1380,6 +1396,20 @@ unit:BTU_IT-PER-HR
   qudt:informativeReference "http://www.simetric.co.uk/sibtu.htm"^^xsd:anyURI ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "BTU per Hour" ;
+.
+unit:KiloBTU_IT-PER-HR
+  a qudt:DerivedUnit ;
+  a qudt:ImperialUnit ;
+  a qudt:Unit ;
+  dcterms:description "<p>The British thermal unit (BTU or Btu) is a traditional unit of energy equal to about 1 055.05585 joules. It is approximately the amount of energy needed to heat 1 pound (0.454 kg) of water from \\(39 \\,^{\\circ}{\\rm F}\\) (\\(3.9 \\,^{\\circ}{\\rm C}\\)) to \\(40 \\,^{\\circ}{\\rm F}\\) (\\(4.4 \\,^{\\circ}{\\rm C}\\)). The unit is most often used in the power, steam generation, heating and air conditioning industries. In scientific contexts the BTU has largely been replaced by the SI unit of energy, the joule, though it may be used as a measure of agricultural energy production (BTU/kg).</p>"^^qudt:LatexString ;
+  qudt:conversionMultiplier "293.07107"^^xsd:double ;
+  qudt:conversionOffset "0.0"^^xsd:double ;
+  qudt:expression "\\(Btu/hr\\)"^^qudt:LatexString ;
+  qudt:hasQuantityKind quantitykind:HeatFlowRate ;
+  qudt:hasQuantityKind quantitykind:Power ;
+  qudt:informativeReference "http://www.simetric.co.uk/sibtu.htm"^^xsd:anyURI ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "kBTU per Hour" ;
 .
 unit:BTU_IT-PER-HR-FT2
   a qudt:DerivedUnit ;
