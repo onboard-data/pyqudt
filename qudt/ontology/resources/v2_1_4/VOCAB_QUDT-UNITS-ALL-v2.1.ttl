@@ -5567,8 +5567,10 @@ unit:FT3-PER-HR
   qudt:conversionMultiplier 7.865792e-06 ;
   qudt:conversionOffset 0e+00 ;
   qudt:hasQuantityKind quantitykind:VolumeFlowRate ;
+  qudt:hasQuantityKind quantitykind:VolumePerUnitTime ;
   qudt:iec61360Code "0112/2///62720#UAA459" ;
   qudt:plainTextDescription "power of the unit foot according to the Anglo-American and the Imperial system of units with the exponent 3 divided by the unit hour" ;
+  qudt:symbol "ft^3/hr" ;
   qudt:uneceCommonCode "2K" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "FT3 PER HR" ;

@@ -26,3 +26,8 @@ class VolumeUnit(object):
     M3: Unit = UnitFactory.get_qudt('M3')
     FT3: Unit = UnitFactory.get_qudt('FT3')
 
+class VolumeRateUnit(object):
+    """
+    """
+    M3_PER_HR: Unit = UnitFactory.get_qudt('M3-PER-HR')
+    FT3_PER_HR: Unit = UnitFactory.get_qudt('FT3-PER-HR')
