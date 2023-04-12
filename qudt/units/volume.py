@@ -22,3 +22,7 @@ class VolumeUnit(object):
 
     MICROLITER: Unit = UnitFactory.get_unit('http://www.openphacts.org/units/Microliter')
     MILLILITER: Unit = UnitFactory.get_unit('http://www.openphacts.org/units/Milliliter')
+
+    M3: Unit = UnitFactory.get_qudt('M3')
+    FT3: Unit = UnitFactory.get_qudt('FT3')
+

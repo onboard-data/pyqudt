@@ -11,18 +11,18 @@
 #
 ################################################################################
 
-from qudt.units.energy import PowerUnit
+from qudt.units.volume import VolumeUnit
 from qudt.quantity import Quantity
 
 import unittest
 
 
-class PowerUnitTest(unittest.TestCase):
-    def test_kbtu_per_hr(self) -> None:
-        kbtus = Quantity(2500, PowerUnit.KBTU_PER_HR)
+class VolumeUnitTest(unittest.TestCase):
+    def test_ft3s(self) -> None:
+        m3s = Quantity(250, VolumeUnit.M3)
 
-        btus = kbtus.convert_to(PowerUnit.THM_US_PER_HR)
-        self.assertAlmostEqual(btus.value, 25, 1)
+        ft3s = m3s.convert_to(VolumeUnit.FT3)
+        self.assertAlmostEqual(ft3s.value, 8828.66, 1)
 
 
 if __name__ == '__main__':
