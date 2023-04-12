@@ -32,3 +32,4 @@ class EnergyUnit(object):
 class PowerUnit(object):
     BTU_PER_HR: Unit = UnitFactory.get_qudt('BTU_IT-PER-HR')
     KBTU_PER_HR: Unit = UnitFactory.get_qudt('KiloBTU_IT-PER-HR')
+    THM_US_PER_HR: Unit = UnitFactory.get_qudt('THM_US-PER-HR')
