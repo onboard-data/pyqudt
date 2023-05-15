@@ -54,7 +54,7 @@ class UnitFactory(object):
 
     _instance: Optional['UnitFactory'] = None
 
-    def __init__(self):
+    def __init__(self) -> None:
         """
         Create an instance of the unit factory and load the RDF triplet
         repositories.
