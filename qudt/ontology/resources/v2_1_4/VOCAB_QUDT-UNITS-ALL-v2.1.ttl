@@ -13913,7 +13913,7 @@ unit:MilliM-PER-SEC
   a qudt:Unit ;
   qudt:conversionMultiplier 1e-03 ;
   qudt:conversionOffset 0e+00 ;
-  qudt:hasQuantityKind quantitykind:Velocity ;
+  qudt:hasQuantityKind quantitykind:LinearVelocity ;
   qudt:iec61360Code "0112/2///62720#UAA867" ;
   qudt:plainTextDescription "0.001-fold of the SI base unit metre divided by the SI base unit second" ;
   qudt:uneceCommonCode "C16" ;
@@ -16349,6 +16349,17 @@ unit:PERCENT
   qudt:uneceCommonCode "P1" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Percent" ;
+.
+unit:PERCENT_RH
+  a qudt:Unit ;
+  dcterms:description "Percent relative humidity is the ratio of the partial pressure of water vapor to the equilibrium vapor pressure of water at a given temperature, expressed as a percentage."^^rdf:HTML ;
+  qudt:conversionMultiplier 0.01 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+  qudt:hasQuantityKind quantitykind:RelativeHumidity ;
+  qudt:plainTextDescription "Percent relative humidity is the ratio of the partial pressure of water vapor to the equilibrium vapor pressure of water at a given temperature, expressed as a percentage." ;
+  qudt:symbol "%RH" ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Percent Relative Humidity"@en ;
 .
 unit:PERMEABILITY_REL
   a qudt:CGS-Unit ;
