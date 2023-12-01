@@ -16355,7 +16355,7 @@ unit:PERCENT_RH
   dcterms:description "Percent relative humidity is the ratio of the partial pressure of water vapor to the equilibrium vapor pressure of water at a given temperature, expressed as a percentage."^^rdf:HTML ;
   qudt:conversionMultiplier 0.01 ;
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
-  qudt:hasQuantityKind quantitykind:RelativeHumidity ;
+  qudt:hasQuantityKind quantitykind:DimensionlessRatio ;
   qudt:plainTextDescription "Percent relative humidity is the ratio of the partial pressure of water vapor to the equilibrium vapor pressure of water at a given temperature, expressed as a percentage." ;
   qudt:symbol "%RH" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
