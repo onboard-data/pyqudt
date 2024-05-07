@@ -1443,7 +1443,7 @@ unit:BTU_IT-PER-LB
   qudt:conversionMultiplier 2.326E+03 ;
   qudt:conversionOffset "0.0"^^xsd:double ;
   qudt:expression "\\(Btu/lb\\)"^^qudt:LatexString ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:informativeReference "http://physics.nist.gov/Pubs/SP811/appenB9.html"^^xsd:anyURI ;
   qudt:informativeReference "http://www.efunda.com/glossary/units/units--energy_density--british_thermal_unit_it_per_cubic_foot.cfm"^^xsd:anyURI ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
@@ -1485,7 +1485,7 @@ unit:BTU_IT-PER-LB_F
   a qudt:Unit ;
   qudt:conversionMultiplier 2.37185970623768328e+02 ;
   qudt:conversionOffset 0e+00 ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:iec61360Code "0112/2///62720#UAB150" ;
   qudt:plainTextDescription "unit of the heat energy according to the Imperial system of units divided by the unit avoirdupois pound according to the avoirdupois system of units" ;
   qudt:uneceCommonCode "AZ" ;
@@ -1728,7 +1728,7 @@ unit:BTU_TH-PER-LB
   qudt:conversionMultiplier 2.324443861E+03 ;
   qudt:conversionOffset "0.0"^^xsd:double ;
   qudt:expression "\\(btu_th-per-lb\\)"^^qudt:LatexString ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:informativeReference "http://physics.nist.gov/Pubs/SP811/appenB9.html"^^xsd:anyURI ;
   qudt:informativeReference "http://www.efunda.com/glossary/units/units--thermal_heat_capacity--british_thermal_unit_therm_per_pound_mass.cfm"^^xsd:anyURI ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
@@ -2291,7 +2291,7 @@ unit:CAL_IT-PER-G
   qudt:conversionMultiplier 4.1868E+03 ;
   qudt:conversionOffset "0.0"^^xsd:double ;
   qudt:expression "\\(cal_it-per-g\\)"^^qudt:LatexString ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:informativeReference "http://physics.nist.gov/Pubs/SP811/appenB9.html"^^xsd:anyURI ;
   qudt:informativeReference "http://www.efunda.com/glossary/units/units--thermal_heat_capacity--british_thermal_unit_therm_per_pound_mass.cfm"^^xsd:anyURI ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
@@ -2301,7 +2301,7 @@ unit:CAL_IT-PER-GM
   a qudt:Unit ;
   qudt:conversionMultiplier 4.1868e+03 ;
   qudt:conversionOffset 0e+00 ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:iec61360Code "0112/2///62720#UAB176" ;
   qudt:plainTextDescription "unit calorie according to the international steam table divided by the 0.001-fold of the SI base unit kilogram" ;
   qudt:uneceCommonCode "D75" ;
@@ -2408,7 +2408,7 @@ unit:CAL_TH-PER-G
   qudt:conversionMultiplier 4.184E+03 ;
   qudt:conversionOffset "0.0"^^xsd:double ;
   qudt:expression "\\(cal\\)"^^qudt:LatexString ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:informativeReference "http://physics.nist.gov/Pubs/SP811/appenB9.html"^^xsd:anyURI ;
   qudt:informativeReference "http://www.efunda.com/glossary/units/units--thermal_heat_capacity--british_thermal_unit_therm_per_pound_mass.cfm"^^xsd:anyURI ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
@@ -2418,7 +2418,7 @@ unit:CAL_TH-PER-GM
   a qudt:Unit ;
   qudt:conversionMultiplier 4.184e+03 ;
   qudt:conversionOffset 0e+00 ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:iec61360Code "0112/2///62720#UAB153" ;
   qudt:plainTextDescription "unit thermochemical calorie divided by the 0,001-fold of the SI base unit kilogram" ;
   qudt:uneceCommonCode "B36" ;
@@ -4676,7 +4676,7 @@ unit:ERG-PER-G
   qudt:conversionMultiplier 1.0E-4 ;
   qudt:conversionOffset "0"^^xsd:double ;
   qudt:expression "\\(erg-per-g\\)"^^qudt:LatexString ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:iec61360Code "0112/2///62720#UAB061" ;
   qudt:uneceCommonCode "A61" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
@@ -4686,7 +4686,7 @@ unit:ERG-PER-GM
   a qudt:Unit ;
   qudt:conversionMultiplier 1.0e-04 ;
   qudt:conversionOffset 0e+00 ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:iec61360Code "0112/2///62720#UAB061" ;
   qudt:plainTextDescription "CGS unit of the mass-related energy" ;
   qudt:uneceCommonCode "A61" ;
@@ -7864,7 +7864,7 @@ unit:J-PER-GM
   a qudt:Unit ;
   qudt:conversionMultiplier 1e+03 ;
   qudt:conversionOffset 0e+00 ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:iec61360Code "0112/2///62720#UAA174" ;
   qudt:plainTextDescription "SI derived unit joule divided by the 0,001-fold of the SI base unit kilogram" ;
   qudt:uneceCommonCode "D95" ;
@@ -7904,7 +7904,7 @@ unit:J-PER-KiloGM
   qudt:conversionMultiplier 1.0e0 ;
   qudt:conversionOffset "0.0"^^xsd:double ;
   qudt:expression "\\(J/kg\\)"^^qudt:LatexString ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:iec61360Code "0112/2///62720#UAA175" ;
   qudt:uneceCommonCode "J2" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
@@ -8617,7 +8617,7 @@ unit:KiloCAL-PER-GM
   qudt:conversionMultiplier 4.184E6 ;
   qudt:conversionOffset "0.0"^^xsd:double ;
   qudt:expression "\\(kcal/gm\\)"^^qudt:LatexString ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Kilocalorie per Gram" ;
 .
@@ -9291,7 +9291,7 @@ unit:KiloJ-PER-KiloGM
   a qudt:Unit ;
   qudt:conversionMultiplier 1e+03 ;
   qudt:conversionOffset 0e+00 ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:iec61360Code "0112/2///62720#UAA570" ;
   qudt:plainTextDescription "1 000-fold of the SI derived unit joule divided by the SI base unit kilogram" ;
   qudt:uneceCommonCode "B42" ;
@@ -9364,7 +9364,7 @@ unit:KiloLB_F-FT-PER-LB
   a qudt:Unit ;
   qudt:conversionMultiplier 2.989067e+03 ;
   qudt:conversionOffset 0e+00 ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:iec61360Code "0112/2///62720#UAB484" ;
   qudt:plainTextDescription "product of the Anglo-American unit pound-force and the Anglo-American unit foot divided by the Anglo-American unit pound (US) of mass" ;
   qudt:uneceCommonCode "G20" ;
@@ -12251,7 +12251,7 @@ unit:MegaJ-PER-KiloGM
   a qudt:Unit ;
   qudt:conversionMultiplier 1.0e+06 ;
   qudt:conversionOffset 0e+00 ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:iec61360Code "0112/2///62720#UAB093" ;
   qudt:plainTextDescription "1,000,000-fold of the derived SI unit joule divided by the SI base unit kilogram" ;
   qudt:uneceCommonCode "JK" ;
@@ -14476,7 +14476,7 @@ unit:N-M-PER-KiloGM
   a qudt:Unit ;
   qudt:conversionMultiplier 1e+00 ;
   qudt:conversionOffset 0e+00 ;
-  qudt:hasQuantityKind quantitykind:SpecificEnergy ;
+  qudt:hasQuantityKind quantitykind:SpecificEnthalpy ;
   qudt:iec61360Code "0112/2///62720#UAB490" ;
   qudt:plainTextDescription "product of the derived SI unit newton and the SI base unit metre divided by the SI base unit kilogram" ;
   qudt:uneceCommonCode "G19" ;
