@@ -5993,7 +5993,7 @@ unit:GAL_US-PER-MIN
   qudt:conversionMultiplier 6.30902E-5 ;
   qudt:conversionOffset "0.0"^^xsd:double ;
   qudt:expression "\\(gal/min\\)"^^qudt:LatexString ;
-  qudt:hasQuantityKind quantitykind:VolumePerUnitTime ;
+  qudt:hasQuantityKind quantitykind:VolumeFlowRate ;
   qudt:ucumCaseInsensitiveCode "[GAL_US].MIN-1" ;
   qudt:ucumCaseInsensitiveCode "[GAL_US]/MIN" ;
   qudt:ucumCaseSensitiveCode "[gal_us].min-1" ;
@@ -7675,8 +7675,21 @@ unit:IN_AQ
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Inch of Water" ;
 .
+unit:IN_H2O
+  a qudt:Unit ;
+  dcterms:description "Inches of water, wc, inch water column (inch WC), inAq, Aq, or inH2O is a non-SI unit for pressure. The units are by convention and due to the historical measurement of certain pressure differentials. It is used for measuring small pressure differences across an orifice, or in a pipeline or shaft. Inches of water can be converted to a pressure unit using the formula for pressure head. It is defined as the pressure exerted by a column of water of 1 inch in height at defined conditions for example $39 ^\\circ F$ at the standard acceleration of gravity; 1 inAq is approximately equal to 249 pascals at $0 ^\\circ C$."^^qudt:LatexString ;
+  qudt:conversionMultiplier 249.080024 ;
+  qudt:dbpediaMatch "http://dbpedia.org/resource/Inch_of_water"^^xsd:anyURI ;
+  qudt:hasQuantityKind quantitykind:ForcePerArea ;
+  qudt:iec61360Code "0112/2///62720#UAA553" ;
+  qudt:informativeReference "http://en.wikipedia.org/wiki/Inch_of_water?oldid=466175519"^^xsd:anyURI ;
+  qudt:symbol "inH₂0" ;
+  qudt:ucumCode "[in_i'H2O]"^^qudt:UCUMcs ;
+  qudt:uneceCommonCode "F78" ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Inch of Water"@en ;
+.
 unit:IN_HG
-  a qudt:CGS-Unit ;
   a qudt:Unit ;
   dcterms:description "Inches of mercury, (inHg) is a unit of measurement for pressure. It is still widely used for barometric pressure in weather reports, refrigeration and aviation in the United States, but is seldom used elsewhere. It is defined as the pressure exerted by a column of mercury of 1 inch in height at \\(32 ^\\circ F\\) at the standard acceleration of gravity. 1 inHg = 3,386.389 pascals at \\(0 ^\\circ C\\)."^^qudt:LatexString ;
   qudt:conversionMultiplier "3386.389"^^xsd:double ;
