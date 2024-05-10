@@ -22,7 +22,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name='pyqudt',
-    version='2.0.0',
+    version='2.0.0.0',
     author='Garrett Brown',
     author_email='themagnificentmrb@gmail.com',
     description='Python library for working with the QUDT (Quantity, Unit, Dimension and Type) ontology.',
