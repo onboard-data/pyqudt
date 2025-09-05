@@ -9002,7 +9002,7 @@ unit:KiloGM-PER-HR
   qudt:conversionMultiplier "0.000277777778"^^xsd:double ;
   qudt:conversionOffset "0.0"^^xsd:double ;
   qudt:expression "\\(kg/h\\)"^^qudt:LatexString ;
-  qudt:hasQuantityKind quantitykind:MassPerTime ;
+  qudt:hasQuantityKind quantitykind:MassFlowRate ;
   qudt:iec61360Code "0112/2///62720#UAA607" ;
   qudt:uneceCommonCode "E93" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
@@ -9130,7 +9130,7 @@ unit:KiloGM-PER-SEC
   qudt:conversionMultiplier "1.0"^^xsd:double ;
   qudt:conversionOffset "0.0"^^xsd:double ;
   qudt:expression "\\(kg/s\\)"^^qudt:LatexString ;
-  qudt:hasQuantityKind quantitykind:MassPerTime ;
+  qudt:hasQuantityKind quantitykind:MassFlowRate ;
   qudt:iec61360Code "0112/2///62720#UAA629" ;
   qudt:uneceCommonCode "KGS" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
@@ -10391,7 +10391,7 @@ unit:LB-PER-MIN
   qudt:conversionMultiplier 0.007559872833333333e0 ;
   qudt:conversionOffset "0.0"^^xsd:double ;
   qudt:expression "\\(lb/min\\)"^^qudt:LatexString ;
-  qudt:hasQuantityKind quantitykind:MassPerTime ;
+  qudt:hasQuantityKind quantitykind:MassFlowRate ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Pound per Minute" ;
 .
@@ -10399,9 +10399,7 @@ unit:LB-PER-SEC
   a qudt:Unit ;
   qudt:conversionMultiplier 4.535924e-01 ;
   qudt:conversionOffset 0e+00 ;
-  qudt:hasQuantityKind quantitykind:MagneticField ;
   qudt:hasQuantityKind quantitykind:MassFlowRate ;
-  qudt:hasQuantityKind quantitykind:MassPerTime ;
   qudt:iec61360Code "0112/2///62720#UAA692" ;
   qudt:plainTextDescription "unit of the mass avoirdupois pound according to the avoirdupois system of units divided by the SI base unit for time second" ;
   qudt:uneceCommonCode "K81" ;
@@ -10559,6 +10557,21 @@ unit:LB_F-SEC-PER-IN2
   qudt:hasQuantityKind quantitykind:DynamicViscosity ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Pound Force Second per Square Inch" ;
+.
+unit:LB_M
+  a qudt:Unit ;
+  dcterms:description "A pound of mass, based on the international standard definition of the pound of mass as exactly 0.45359237 kg."^^rdf:HTML ;
+  qudt:conversionMultiplier 0.45359237 ;
+  qudt:conversionMultiplierSN 4.5359237E-1 ;
+  qudt:exactMatch unit:LB ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T0D0 ;
+  qudt:hasQuantityKind quantitykind:Mass ;
+  qudt:symbol "lbm" ;
+  qudt:ucumCode "[lb_av]"^^qudt:UCUMcs ;
+  qudt:udunitsCode "lb" ;
+  qudt:uneceCommonCode "LBR" ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Pound Mass"@en ;
 .
 unit:LB_T
   a qudt:CGS-Unit ;
@@ -18927,6 +18940,23 @@ unit:TONNE-PER-HA
   qudt:symbol "t/ha" ;
   rdfs:label "tonne per hectare" ;
   owl:sameAs unit:TON_Metric-PER-HA ;
+.
+unit:TONNE-PER-HR
+  a qudt:Unit ;
+  dcterms:description "unit tonne divided by the unit for time hour"^^rdf:HTML ;
+  qudt:conversionMultiplier 0.277777777777778 ;
+  qudt:conversionMultiplierSN 2.77777777777778E-1 ;
+  qudt:exactMatch unit:TON_Metric-PER-HR ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:MassFlowRate ;
+  qudt:iec61360Code "0112/2///62720#UAB994" ;
+  qudt:plainTextDescription "unit tonne divided by the unit for time hour" ;
+  qudt:symbol "t/hr" ;
+  qudt:ucumCode "t.h-1"^^qudt:UCUMcs ;
+  qudt:ucumCode "t/h"^^qudt:UCUMcs ;
+  qudt:uneceCommonCode "E18" ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Tonne per Hour"@en ;
 .
 unit:TONNE-PER-M3
   a qudt:Unit ;
