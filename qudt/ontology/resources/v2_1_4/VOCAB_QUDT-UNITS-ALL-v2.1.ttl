@@ -1195,6 +1195,20 @@ unit:KiloBTU_IT
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Kilo British Thermal Unit (International Definition)" ;
 .
+unit:MegaBTU_IT
+  a qudt:Unit ;
+  qudt:conversionMultiplier "1055055852.62"^^xsd:double ;
+  qudt:conversionOffset "0.0"^^xsd:double ;
+  qudt:hasQuantityKind quantitykind:Energy ;
+  qudt:hasQuantityKind quantitykind:ThermalEnergy ;
+  qudt:informativeReference "http://en.wikipedia.org/wiki/British_thermal_unit"^^xsd:anyURI ;
+  qudt:informativeReference "http://physics.nist.gov/Pubs/SP811/appenB9.html"^^xsd:anyURI ;
+  qudt:informativeReference "http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=31890"^^xsd:anyURI ;
+  qudt:informativeReference "http://www.knowledgedoor.com/2/units_and_constants_handbook/british-thermal-unit_group.html"^^xsd:anyURI ;
+  qudt:symbol "MBtu{IT}" ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Mega British Thermal Unit (international Definition)" ;
+.
 unit:BTU_IT-FT
   a qudt:DerivedUnit ;
   a qudt:ImperialUnit ;
