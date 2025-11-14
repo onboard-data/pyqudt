@@ -9910,6 +9910,18 @@ unit:KiloW-HR
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Kilowatthour" ;
 .
+unit:KiloW-PER-TON_FG
+  a qudt:Unit ;
+  dcterms:description "Unit of Cooling Performance Ratio representing kilowatts of power input per ton of refrigeration output. Used to measure the energy performance of chillers and cooling systems." ;
+  qudt:conversionMultiplier 0.2843451233247451627918482802664769 ;
+  qudt:conversionMultiplierSN 2.843451233247451627918482802664769E-1 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+  qudt:hasQuantityKind quantitykind:CoolingPerformanceRatio ;
+  qudt:symbol "kW/TOR" ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Kilowatt per Ton of Refrigeration" ;
+  rdfs:label "Kilowatt per Ton of Refrigeration"@en ;
+.
 unit:KiloWB-PER-M
   a qudt:Unit ;
   qudt:conversionMultiplier 1e+03 ;
@@ -16435,6 +16447,43 @@ unit:PERCENT
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Percent" ;
 .
+unit:PERCENT-PER-SECOND
+  a qudt:Unit ;
+  qudt:conversionMultiplier 0.01 ;
+  qudt:conversionMultiplierSN 1.0E-2 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:RateOfChange ;
+  qudt:plainTextDescription "percent divided by the unit second" ;
+  qudt:symbol "%/s" ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Percent per Second"@en ;
+.
+unit:PERCENT-PER-WK
+  a qudt:Unit ;
+  dcterms:description "A rate of change in percent over a period of 7 days"@en ;
+  qudt:conversionMultiplier 0.00000001653439153439153439153439153439153 ;
+  qudt:conversionMultiplierSN 1.653439153439153439153439153439153E-8 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:RateOfChange ;
+  qudt:symbol "%/wk" ;
+  qudt:ucumCode "%.wk-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Percent per Week" ;
+  rdfs:label "Percent per Week"@en ;
+.
+unit:PERCENT-PER-YR
+  a qudt:Unit ;
+  qudt:conversionMultiplier 0.0000000003168808781402895023702689684893655 ;
+  qudt:conversionMultiplierSN 3.168808781402895023702689684893655e-10 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:RateOfChange ;
+  qudt:plainTextDescription "percent divided by the unit year" ;
+  qudt:symbol "%/a" ;
+  qudt:ucumCode "%.a-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Percent per Year" ;
+  rdfs:label "Percent per Year"@en ;
+.
 unit:PERCENT_RH
   a qudt:Unit ;
   dcterms:description "Percent relative humidity is the ratio of the partial pressure of water vapor to the equilibrium vapor pressure of water at a given temperature, expressed as a percentage."^^rdf:HTML ;
@@ -19242,6 +19291,19 @@ unit:TON_UK-PER-DAY
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "TON_UK PER DAY" ;
   skos:prefLabel "long ton (uk) per day" ;
+.
+unit:TON_UK-PER-HR
+  a qudt:Unit ;
+  dcterms:description "unit British ton according to the Imperial system of units divided by the unit hour"^^rdf:HTML ;
+  qudt:conversionMultiplier 0.2822352524444444444444444444444445 ;
+  qudt:conversionMultiplierSN 2.822352524444444444444444444444445E-1 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:MassFlowRate ;
+  qudt:symbol "ton{UK}/h" ;
+  qudt:ucumCode "[lton_av].h-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Ton (UK) per Hour" ;
+  rdfs:label "Ton (UK) per Hour"@en ;
 .
 unit:TON_UK-PER-YD3
   a qudt:Unit ;
