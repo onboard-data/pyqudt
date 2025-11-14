@@ -16447,7 +16447,7 @@ unit:PERCENT
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Percent" ;
 .
-unit:PERCENT-PER-SECOND
+unit:PERCENT-PER-SEC
   a qudt:Unit ;
   qudt:conversionMultiplier 0.01 ;
   qudt:conversionMultiplierSN 1.0E-2 ;
